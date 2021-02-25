@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Son Tran">
-    <title>Son Tran • Contact Me</title>
+    <title>Son Tran • Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes">
 
@@ -16,6 +16,7 @@
 
     <link rel="shortcut icon" href="favicon.png" />
 </head>
+
 
 <body class="home">
     <div id="main-content">
@@ -50,9 +51,9 @@
                                             <li> <a href="https://ttsalpha.github.io/index">Home</a> </li>
                                             <li> <a href="#">About Me</a> </li>
                                             <li> <a href="#">Images</a> </li>
-                                            <li> <a href="https://ttsalpha.github.io/blog">Blog</a> </li>
+                                            <li class="active"> <a href="https://ttsalpha.github.io/blog">Blog</a> </li>
                                             <li> <a href="#">Design</a> </li>
-                                            <li class="active"> <a href="https://ttsalpha.github.io/contact">Contact</a>
+                                            <li> <a href="https://ttsalpha.github.io/contact">Contact</a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -100,74 +101,100 @@
                     <div class="projects">
                         <article class="post">
                             <div class="post-media">
-                                <a> <img src="https://raw.githubusercontent.com/ttsalpha/ttsalpha-resource/master/contact/01.jpg"
-                                        alt="Contact"> </a>
+                                <a href="template.html">
+                                    <img
+                                        src="https://raw.githubusercontent.com/ttsalpha/ttsalpha-resource/master/test/01.jpg">
+                                </a>
                             </div>
-                            <div class="post-content">
-                                <h2 class="title">Contact Me</h2>
-                                <div class="the-content">
-                                    <div id="content">
-                                        <script>
-                                            fetch('https://raw.githubusercontent.com/ttsalpha/ttsalpha-resource/master/contact/res.html')
-                                                .then(response => response.text())
-                                                .then(data => {
-                                                    document.getElementById("content").innerHTML = data;
-                                                });
-                                        </script>
-                                    </div>
-                                    <br>
-                                    <ul>
-                                        <li> <strong>Phone:</strong> 0866 820 901 </li>
-                                        <li> <strong>Email:</strong> ttsalpha@icloud.com </li>
-                                        <li>
-                                            <strong>Location:</strong> 208B Foreign Languages Dormitory, Cau Giay, Hanoi
-                                        </li>
-                                        <li>
-                                            <strong>Social:</strong>
-                                            <a class="socials-ct" href="https://github.com/ttsalpha" target="_blank"
-                                                title="Github"> &emsp;<img src="icon/github.svg">
-                                            </a>
-                                            <a class="socials-ct" href="https://www.instagram.com/ttsalpha"
-                                                target="_blank" title="Instagram"> &emsp;<img src="icon/instagram.svg">
-                                            </a>
-                                            <a class="socials-ct" href="https://www.behance.net/ttsalpha"
-                                                target="_blank" title="Behance"> &emsp;<img src="icon/behance.svg">
-                                            </a>
-                                            <a class="socials-ct"
-                                                href="https://www.youtube.com/channel/UCtjFUJUfhpsT10Rd9uDoHtQ"
-                                                target="_blank" title="Youtube"> &emsp;<img src="icon/youtube.svg">
-                                            </a>
-                                        </li>
-                                    </ul>
-
-                                    <p>&nbsp;</p>
-                                    <form method="post" id="contact-form">
-                                        <div class="contact-form">
-                                            <form method="post" class="comment-form contact">
-                                                <div class="contact-item form-name">
-                                                    <input class="form-control" id="form-name" type="text"
-                                                        placeholder="Your Name">
-                                                </div>
-                                                <div class="contact-item form-email">
-                                                    <input class="form-control" id="form-email" type="text"
-                                                        placeholder="Your Email">
-                                                </div>
-                                                <div class="contact-item field-full">
-                                                    <textarea class="form-control" id="form-message" type="text"
-                                                        placeholder="Message"></textarea>
-                                                </div>
-                                                <div class="contact-item form-submit">
-                                                    <input name="submit" type="submit" id="submit"
-                                                        class="btn btn-default submit" value="Send Message">
-                                                </div>
-                                                <div id="feedback"></div>
-                                            </form>
-                                        </div>
-                                    </form>
-                                    <p>&nbsp;</p>
-                                </div>
+                            <div id="content1">
+                                <script>
+                                    fetch('https://raw.githubusercontent.com/ttsalpha/ttsalpha-resource/master/blog/01/00/res.html')
+                                        .then(response => response.text())
+                                        .then(data => {
+                                            document.getElementById("content1").innerHTML = data;
+                                        });
+                                </script>
                             </div>
                         </article>
+
+                        <article class="post">
+                            <div class="post-media">
+                                <a href="template.html">
+                                    <img
+                                        src="https://raw.githubusercontent.com/ttsalpha/ttsalpha-resource/master/test/01.jpg">
+                                </a>
+                            </div>
+                            <div id="content2">
+                                <script>
+                                    fetch('https://raw.githubusercontent.com/ttsalpha/ttsalpha-resource/master/blog/01/00/res.html')
+                                        .then(response => response.text())
+                                        .then(data => {
+                                            document.getElementById("content2").innerHTML = data;
+                                        });
+                                </script>
+                            </div>
+                        </article>
+
+                        <article class="post">
+                            <div class="post-media">
+                                <a href="template.html">
+                                    <img
+                                        src="https://raw.githubusercontent.com/ttsalpha/ttsalpha-resource/master/test/01.jpg">
+                                </a>
+                            </div>
+                            <div id="content3">
+                                <script>
+                                    fetch('https://raw.githubusercontent.com/ttsalpha/ttsalpha-resource/master/blog/01/00/res.html')
+                                        .then(response => response.text())
+                                        .then(data => {
+                                            document.getElementById("content3").innerHTML = data;
+                                        });
+                                </script>
+                            </div>
+                        </article>
+
+
+                        <article class="post">
+                            <div class="post-media">
+                                <a href="template.html">
+                                    <img
+                                        src="https://raw.githubusercontent.com/ttsalpha/ttsalpha-resource/master/test/01.jpg">
+                                </a>
+                            </div>
+                            <div id="content4">
+                                <script>
+                                    fetch('https://raw.githubusercontent.com/ttsalpha/ttsalpha-resource/master/blog/01/00/res.html')
+                                        .then(response => response.text())
+                                        .then(data => {
+                                            document.getElementById("content4").innerHTML = data;
+                                        });
+                                </script>
+                            </div>
+                        </article>
+
+
+                        <div class="pagination-wrap">
+                            <ul>
+                                <li>
+                                    <a class="prev page-numbers" href="#">←</a>
+                                </li>
+                                <li>
+                                    <span class="page-numbers current">1</span>
+                                </li>
+                                <li>
+                                    <a class="page-numbers">2</a>
+                                </li>
+                                <li>
+                                    <a class="page-numbers">3</a>
+                                </li>
+                                <li>
+                                    <a class="page-numbers">4</a>
+                                </li>
+                                <li>
+                                    <a class="next page-numbers" href="#">→</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -188,7 +215,8 @@
                         </div>
                         <div class="col-sm-6">
                             <h2 class="title">Contact Me</h2>
-                            <span>Phone: 0866 820 901 <br>
+                            <span>
+                                Phone: 0866 820 901 <br>
                                 Email: ttsalpha@icloud.com<br>
                                 Address: Foreign Languages Dormitory, Hanoi
                             </span>
