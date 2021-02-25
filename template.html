@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Son Tran">
+    <title>Son Tran • Post templates</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/libs/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/libs/justifiedGallery.min.css">
+    <link rel="stylesheet" type="text/css" href="css/libs/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <link rel="shortcut icon" href="favicon.png" />
+</head>
+
+<body class="home">
+    <div id="main-content">
+        <div id="preload">
+            <div class="kd-bounce"> </div>
+        </div>
+        <div class="mobile nav-bar">
+            <div class="container">
+                <div class="menu-mobile">
+                    <span class="item item-1"></span>
+                    <span class="item item-2"></span>
+                </div>
+                <div class="logo"> ttsalpha </div>
+            </div>
+            <span class="itemx"></span>
+        </div>
+        <div class="hide-menu"></div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="header affix">
+                        <div class="table">
+                            <div class="table-cell">
+                                <div class="logo">
+                                    <a href="http://ttsalpha.github.io"> ttsalpha
+                                </div>
+
+                                <div class="main-menu">
+                                    <nav>
+                                        <ul class="menu-list">
+                                            <li> <a href="https://ttsalpha.github.io/index">Home</a> </li>
+                                            <li> <a href="#">About Me</a> </li>
+                                            <li> <a href="#">Images</a> </li>
+                                            <li> <a href="https://ttsalpha.github.io/blog">Blog</a> </li>
+                                            <li> <a href="#">Design</a> </li>
+                                            <li> <a href="https://ttsalpha.github.io/contact">Contact</a> </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+
+                                <div class="socials">
+                                    <a target="_blank" href="https://github.com/ttsalpha" title="Github">
+                                        <img src="icon/github.svg">
+                                    </a>
+                                    <a target="_blank" href="https://www.instagram.com/ttsalpha" title="Instagram">
+                                        <img src="icon/instagram.svg">
+                                    </a>
+                                    <a target="_blank" href="https://www.behance.net/ttsalpha" title="Behance">
+                                        <img src="icon/behance.svg">
+                                    </a>
+                                    <a target="_blank" href="https://www.youtube.com/channel/UCtjFUJUfhpsT10Rd9uDoHtQ"
+                                        title="Youtube"> <img src="icon/youtube.svg">
+                                    </a>
+                                    <a href="#" title="Search this site"> <img class="fa-search" src="icon/search.svg">
+                                    </a>
+                                </div>
+                                <div class="box-search">
+                                    <div class="table">
+                                        <div class="table-cell">
+                                            <div class="container">
+                                                <form class="search-form" action="#" method="get">
+                                                    <input type="search" name="s" class="search-field"
+                                                        placeholder="Type &amp; hit enter" value="" title="Search">
+                                                    <div class="kd-close">
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="copyright">
+                                    <p> A little enjoyable here ~(˘▾˘(~˘▾˘)~ </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-9 col-md-offset-3">
+                    <div class="projects">
+
+                        <article class="post">
+                            <div class="post-media">
+                                <a> <img src="https://raw.githubusercontent.com/ttsalpha/ttsalpha-resource/master/test/01.jpg"
+                                        alt="Template"> </a>
+                            </div>
+                            <div id="content">
+                                <script>
+                                    fetch('https://raw.githubusercontent.com/ttsalpha/ttsalpha-resource/master/test/template.html')
+                                        .then(response => response.text())
+                                        .then(data => {
+                                            document.getElementById("content").innerHTML = data;
+                                        });
+                                </script>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-md-offset-3">
+                    <div class="footer-inner">
+                        <div class="col-sm-6">
+                            <h2 class="title"> About Me</h2>
+                            <span>
+                                I am Son Tran, you can call me Jack.
+                                There are a few interesting things about me here.
+                            </span>
+                        </div>
+                        <div class="col-sm-6">
+                            <h2 class="title">Contact Me</h2>
+                            <span>
+                                Phone: 0866 820 901 <br>
+                                Email: ttsalpha@icloud.com<br>
+                                Address: Foreign Languages Dormitory, Hanoi
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
