@@ -882,7 +882,7 @@ body {
 
 .post .post-content {
     background-color: #eeeeee;
-    padding: 50px 50px 40px;
+    padding: 50px 40px 40px;
 }
 
 .title {
@@ -1343,6 +1343,9 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+    body {
+        font-size: 13px;
+    }
     .projects {
         padding-left: 0;
         padding-right: 0;
