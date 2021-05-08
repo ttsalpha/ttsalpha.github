@@ -43,7 +43,7 @@
                         <div class="table">
                             <div class="table-cell">
                                 <div class="logo">
-                                    <a href="http://ttsalpha.github.io"> ttsalpha
+                                    <a href="http://ttsalpha.github.io/ttsalpha.github.io.old"> ttsalpha
                                 </div>
 
                                 <div class="main-menu">
@@ -102,12 +102,11 @@
 
                         <article class="post">
                             <div class="post-media">
-                                <a> <img src="https://raw.githubusercontent.com/ttsalpha/ttsalpha-resource/master/test/01.jpg"
-                                        alt="Template"> </a>
+                                <a> <img src="./res/test/01.jpg" alt="Template"> </a>
                             </div>
                             <div id="content">
                                 <script>
-                                    fetch('https://raw.githubusercontent.com/ttsalpha/ttsalpha-resource/master/test/template.html')
+                                    fetch('./res/test/template.html')
                                         .then(response => response.text())
                                         .then(data => {
                                             document.getElementById("content").innerHTML = data;
